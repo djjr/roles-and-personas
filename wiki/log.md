@@ -8,6 +8,16 @@ grep "^## \[" wiki/log.md | head -10
 
 ---
 
+## [2026-04-12] query | Definition of the situation as in-context persona selection
+- Question: Is PSM's persona selection analogous to Goffman's definition of the situation? Can we do archaeology on persona drift across a many-turn conversation?
+- Answer distinguishes two levels: training-time (PSM's native domain) vs. inference-time (the archaeology target)
+- Key claim: in-context persona is the lowest-energy state compatible with accumulated situational cues; user bids determine the equilibrium unilaterally (vs. Goffman's mutual negotiation)
+- Archaeology proposal: look for path-dependence, lock-in, and asymmetric responsiveness to overt vs. subtle framing
+- Three open questions filed: lock-in inflection points, system-prompt as pre-negotiated frame, activation steering as external situation imposition
+- Index updated: 47 pages total
+
+---
+
 ## [2026-04-11] wiki-run | Could an AI Be Shy? + Goffman Video BBC 1 + Goffman and Roles 1
 - Files processed: 3 (Could an AI ever be shy?, Goffman Video BBC 1, Goffman and Roles 1)
 - Source pages created: could-an-ai-be-shy (original DJR analysis), goffman-video-bbc-1 (stub — BBC/OU clip), goffman-and-roles-1 (DJR notes on Goffman 1959)

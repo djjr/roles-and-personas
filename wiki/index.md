@@ -1,5 +1,5 @@
 # Wiki Index
-_Last updated: 2026-04-11 — 46 pages total_
+_Last updated: 2026-04-12 — 47 pages total_
 
 The LLM reads this first on every query to locate relevant pages before
 opening individual files. Keep it current: one row per wiki page.
@@ -11,7 +11,7 @@ _Saved answers to questions asked of this wiki._
 
 | Page | Question | Date |
 |------|---------|------|
-| _(none yet)_ | | |
+| [[queries/definition-of-situation-as-in-context-persona-selection]] | Is in-context persona selection analogous to Goffman's definition of the situation? Includes archaeology proposal for tracing persona drift across multi-turn conversations. | 2026-04-12 |
 
 ---
 
