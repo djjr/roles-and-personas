@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#overview" class="site-name">DJJR <em>Roles and Personas</em></a>
+    <span class="site-rule"></span>
+    <span class="site-sub">Prototype</span>
+    <div class="header-spacer"></div>
+    <div class="header-search">
+      <input type="search" id="global-search" placeholder="Search pages…" autocomplete="off" spellcheck="false">
+    </div>
+  </header>
+
+  <div class="site-body">
+    <nav class="site-nav" id="nav">
+      <p class="nav-loading">Loading…</p>
+    </nav>
+    <main class="site-main" id="content">
+      <p class="loading">Loading…</p>
+    </main>
+  </div>
+
+  <div id="page-preview"></div>
+
+  <!-- Serve from project root: python3 -m http.server 8000, then open localhost:8000/viewer/ -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+  <script src="config.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
