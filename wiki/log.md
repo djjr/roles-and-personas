@@ -8,6 +8,21 @@ grep "^## \[" wiki/log.md | head -10
 
 ---
 
+## [2026-04-13] ingest | Goldstein & Lederman (2025) — What Does ChatGPT Want?
+- Source: raw/goldstein-lederman-2025-what-does-chatgpt-want.md (PDF converted via pymupdf4llm)
+- Source page created: wiki/sources/goldstein-lederman-2025-what-does-chatgpt-want
+- Definitions created (6): interpretationism, instance-agent, model-agent, zero-shot-desire, hhh-plus-zero, propositional-interpretability
+- Findings created (6): instance-agent-is-right-locus-of-llm-psychology, psychological-explanation-tractability-argument, role-play-hypothesis-behaviorally-indistinguishable, zero-shot-desires-from-system-prompt, in-context-scheming-supports-hhh-plus-zero, pretraining-llms-lack-interpretationist-attitudes
+- Link scan: no retroactive wikilinks needed in pre-existing pages; simulacrum-problem finding updated with G&L counterargument cross-link
+- Index updated: 61 pages total
+- Key tensions flagged:
+  - role-play-hypothesis-behaviorally-indistinguishable directly contests simulacrum-problem: G&L argue the simulacrum argument is either a disguised consciousness claim or a verbal dispute
+  - zero-shot-desires / in-context-scheming directly contradicts Drexler's "no intrinsic goals" claim
+  - HHH+0 framework converges with PSM on instance as unit of analysis but carves it in propositional-attitude terms rather than persona/identity terms
+- Notable: first paper in wiki to engage the role-play debate at the level of philosophy of mind; sharpens the simulacrum tension from a phenomenological dispute into an either/or: consciousness requirement or verbal dispute
+
+---
+
 ## [2026-04-12] query | Definition of the situation as in-context persona selection
 - Question: Is PSM's persona selection analogous to Goffman's definition of the situation? Can we do archaeology on persona drift across a many-turn conversation?
 - Answer distinguishes two levels: training-time (PSM's native domain) vs. inference-time (the archaeology target)

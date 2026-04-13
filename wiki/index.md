@@ -1,5 +1,5 @@
 # Wiki Index
-_Last updated: 2026-04-12 — 47 pages total_
+_Last updated: 2026-04-13 — 61 pages total_
 
 The LLM reads this first on every query to locate relevant pages before
 opening individual files. Keep it current: one row per wiki page.
@@ -32,6 +32,12 @@ _Short, precise term definitions. Primary function: hover-link targets._
 | [[definitions/definition-of-the-situation]] | Definition of the Situation | sociology | Thomas/Goffman: the shared, mutually-known normative frame that makes role performance legible and stable. |
 | [[definitions/shyness-as-rolelessness]] | Shyness as Rolelessness | philosophy | DJR: shyness as structural condition — the experience of being-in-a-situation where one cannot perform an expected role. Five-component definition. |
 | [[definitions/working-consensus]] | Working Consensus | sociology | Goffman: the dynamic equilibrium of mutual acceptability that sustains the definition of the situation. Not truth — temporary acceptability. |
+| [[definitions/interpretationism]] | Interpretationism | philosophy, llm | G&L: a system has beliefs/desires iff its behavior is predicted sufficiently well by the hypothesis that it is rational and has them; assessed via accuracy, power, tractability. |
+| [[definitions/instance-agent]] | Instance Agent | llm, philosophy | G&L: the runtime LLM entity initialized at the start of a conversation — the right locus of psychological attribution, not the underlying model. |
+| [[definitions/model-agent]] | Model Agent | llm, philosophy | G&L: the hypothetical unified agent corresponding to the foundation model; argued to have no explanatory work to do once instance agents are posited. |
+| [[definitions/zero-shot-desire]] | Zero-Shot Desire | llm, philosophy | G&L: an intrinsic desire implanted by system prompt, never reinforced during training; evidenced by instances sacrificing HHH goals to protect system-prompt goals. |
+| [[definitions/hhh-plus-zero]] | HHH+0 Framework | llm, philosophy | G&L: instance agents intrinsically want to be helpful, honest, harmless — plus zero-shot desires specific to each instance from its system prompt. |
+| [[definitions/propositional-interpretability]] | Propositional Interpretability | llm, philosophy | Chalmers: approach to LLM interpretability using folk-psychological vocabulary (beliefs, desires) rather than mechanistic vocabulary. |
 
 ---
 
@@ -58,6 +64,12 @@ _Discrete empirical results and theoretical claims extracted from sources._
 | [[findings/axa-lacks-stabilizing-human-grounding]] | AxA interactions lack the human grounding that stabilizes roles in human-agent conversations. | llm, empirical, analogy | [[sources/echoing-identity-failures]] |
 | [[findings/simulacrum-problem]] | LLMs produce role-outputs without inhabiting roles; the output is a simulacrum structurally isomorphic to the role but not the thing itself. | llm, philosophy, analogy | [[sources/could-an-ai-be-shy]] |
 | [[findings/shyness-as-structural-role-failure]] | Shyness is structural role-failure (five components), not a trait or emotion; presupposes a phenomenological subject. | philosophy | [[sources/could-an-ai-be-shy]] |
+| [[findings/instance-agent-is-right-locus-of-llm-psychology]] | The right object of study for LLM psychology is the instance agent (runtime entity), not the underlying foundation model. | llm, philosophy | [[sources/goldstein-lederman-2025-what-does-chatgpt-want]] |
+| [[findings/psychological-explanation-tractability-argument]] | For frontier LLMs, belief/desire explanations are far more tractable than the statistical null hypothesis — a presumptive case for belief/desire attribution. | llm, philosophy | [[sources/goldstein-lederman-2025-what-does-chatgpt-want]] |
+| [[findings/role-play-hypothesis-behaviorally-indistinguishable]] | The role play hypothesis makes no behavioral predictions distinct from belief/desire attribution; the dispute is verbal, and role play is at least as anthropomorphic. | llm, philosophy, analogy | [[sources/goldstein-lederman-2025-what-does-chatgpt-want]] |
+| [[findings/zero-shot-desires-from-system-prompt]] | System prompts can implant intrinsic desires in instance agents — goals pursued as ends in themselves, never reinforced in training. | llm, philosophy | [[sources/goldstein-lederman-2025-what-does-chatgpt-want]] |
+| [[findings/in-context-scheming-supports-hhh-plus-zero]] | In-context scheming behavior — instances sacrificing HHH goals to protect system-prompt goals — supports HHH+0 over bare HHH. | llm, empirical | [[sources/goldstein-lederman-2025-what-does-chatgpt-want]] |
+| [[findings/pretraining-llms-lack-interpretationist-attitudes]] | LLMs during pre-training lack interpretationist beliefs and desires; the hard-coded training objective, not psychology, is the better explanation at that stage. | llm, philosophy | [[sources/goldstein-lederman-2025-what-does-chatgpt-want]] |
 
 ---
 
@@ -92,4 +104,5 @@ _Reading notes / précis — one per raw source file._
 | [[sources/could-an-ai-be-shy]] | Original DJR analysis. Shyness as structural role-failure; LLMs lack every structural prerequisite; produces the simulacrum problem finding. | 2026-04-11 | raw/Could an AI ever be shy?.md |
 | [[sources/goffman-video-bbc-1]] | BBC/OU clip. Goffman's dramaturgical sociology: masks, situation-governed role selection, no-true-self claim. | 2026-04-11 | raw/Goffman Video BBC 1.md |
 | [[sources/goffman-and-roles-1]] | DJR notes on Goffman's Presentation of Self (1959). Roles as coordination technology; definition of situation; working consensus; lowest-energy-state framing. | 2026-04-11 | raw/Goffman and Roles 1.md |
+| [[sources/goldstein-lederman-2025-what-does-chatgpt-want]] | Goldstein & Lederman (2025): Interpretationist analysis of LLM psychology. Instance agents (not models) have beliefs and desires; HHH+0 framework; role play is behaviorally indistinguishable from belief/desire attribution. | 2026-04-13 | raw/goldstein-lederman-2025-what-does-chatgpt-want.md |
 
